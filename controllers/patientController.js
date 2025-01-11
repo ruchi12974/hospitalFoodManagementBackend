@@ -1,9 +1,4 @@
 
-/* .populate({
-      path: 'dietChart',
-      options: { strictPopulate: false }, // Allow empty references
-    })  */
-   
 const Patient = require('../models/Patient');
 const DietChart = require('../models/DietChart');
 const mongoose = require('mongoose');
