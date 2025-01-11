@@ -1,0 +1,11 @@
+require("dotenv").config();
+
+services:
+  - type: web
+    name: hospital-food-management-backend
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: process.env.PORT || 4000
